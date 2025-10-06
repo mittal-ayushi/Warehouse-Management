@@ -1,7 +1,6 @@
 import json
 from datetime import datetime
-from py3dbp import Packer, Bin, Item, Painter
-
+from updated_py3dbp import Packer, Bin, Item, Painter
 # Load items from data.json
 def load_items_from_json(file_path):
     with open(file_path, 'r') as f:
@@ -103,7 +102,7 @@ print(f'unpack item : {unfitted_name}')
 print(f'unpack item volume : {volume_f}')
 print("gravity distribution : ", b.gravity)
 
-# Draw results
+#Draw results
 painter = Painter(b)
 fig = painter.plotBoxAndItems(
     title=b.partno,
