@@ -1,0 +1,14 @@
+[
+    {
+        "Item ID": "1",
+        "Name": "a",
+        "Width": 30,
+        "Length": 40,
+        "Height": 3,
+        "Weight": 20,
+        "Priority": 4,
+        "Expiry": "2030-01-02",
+        "Usage Limit": "2",
+        "Preferred Zone": "1"
+    }
+]

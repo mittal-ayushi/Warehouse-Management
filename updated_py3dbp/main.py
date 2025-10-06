@@ -23,7 +23,6 @@ class Item:
         self.height = WHD[1]
         self.depth = WHD[2]
         self.weight = weight
-        # Packing Priority level ,choose 1-3
         self.level = level
         self.expiry = expiry
         # loadbear
